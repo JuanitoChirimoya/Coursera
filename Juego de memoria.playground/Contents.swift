@@ -1,5 +1,5 @@
-//: Playground - noun: a place where people can play
-
+//Tarea semana 2 Juego de memoria.
+// JMZavala
 import UIKit
 
 
@@ -22,7 +22,8 @@ for valor in rango {
         }else{ // El número es impar
             print("#\(valor)  impar!!!");
         }
-        if (valor > 30 && valor < 40){
+        //Inclui el 30 y 40 intensionalmente pues fue mi interpretación
+        if (valor >= 30 && valor <= 40){
             print("#\(valor)  Viva Swift!!!");
         }
     }
